@@ -1,0 +1,178 @@
+<files>
+	<images>
+		<file src="achievements/death.png"/>
+		<file src="achievements/killStreak.png"/>
+		<file src="achievements/main.png"/>
+		<file src="achievements/money.png"/>
+		<file src="achievements/pickup.png"/>
+		<file src="achievements/zombie.png"/>
+		
+		<file src="blood/blood1.png"/>
+		<file src="blood/blood2.png"/>
+		<file src="blood/blood3.png"/>
+		<file src="blood/blood4.png"/>
+		<file src="blood/blood5.png"/>
+		
+		<file src="environment/iSurvival.png"/>
+		<file src="environment/nuclear.png"/>
+		<file src="environment/safetyzone.png"/>
+		<file src="environment/TopInterface.png"/>
+
+		<file src="gifts/ac.png"/>
+		<file src="gifts/csgo.png"/>
+		<file src="gifts/dayz.png"/>
+		<file src="gifts/gs.png"/>
+		<file src="gifts/image.png"/>
+		<file src="gifts/pd2.png"/>
+		<file src="gifts/pi.png"/>
+		<file src="gifts/rust.png"/>
+		<file src="gifts/sb.png"/>
+		<file src="gifts/smb.png"/>
+		<file src="gifts/wd.png"/>
+
+		<file src="gui/button.png"/>
+		<file src="gui/close.png"/>
+		<file src="gui/item.png"/>
+		<file src="gui/login.png"/>
+		<file src="gui/switch_off.png"/>
+		<file src="gui/switch_on.png"/>
+		<file src="gui/userpanel_tab.png"/>
+		
+		<file src="items/C4.png"/>
+		<file src="items/fireworks.png"/>
+		<file src="items/food.png"/>
+		<file src="items/fuel_e.png"/>
+		<file src="items/fuel_f.png"/>
+		<file src="items/gifts.png"/>
+		<file src="items/medikit.png"/>
+		<file src="items/nopic.png"/>
+		
+		<file src="weapons/ak47.png"/>
+		<file src="weapons/bombs.png"/>
+		<file src="weapons/countrySniper.png"/>
+		<file src="weapons/deagle.png"/>
+		<file src="weapons/granade.png"/>
+		<file src="weapons/katana.png"/>
+		<file src="weapons/knife.png"/>
+		<file src="weapons/m4.png"/>
+		<file src="weapons/minigun.png"/>
+		<file src="weapons/molotov.png"/>
+		<file src="weapons/mp5.png"/>
+		<file src="weapons/rocketlauncher.png"/>
+		<file src="weapons/sawnoff.png"/>
+		<file src="weapons/silencedPistol.png"/>
+		<file src="weapons/spaz12.png"/>
+		<file src="weapons/teargas.png"/>
+		<file src="weapons/tec9.png"/>
+		<file src="weapons/uzi.png"/>
+	</images>
+	<sounds>
+		<file src="achievement.mp3"/>
+		<file src="ding.mp3"/>
+		<file src="geiger_01.mp3"/>
+		<file src="hover.mp3"/>
+		<file src="zSound1.mp3"/>
+		<file src="zSound2.mp3"/>
+		<file src="zSound3.mp3"/>
+		<file src="zSound4.mp3"/>
+		<file src="zSound5.mp3"/>
+		<file src="zSound6.mp3"/>
+		<file src="zSound7.mp3"/>
+		<file src="zSound8.mp3"/>
+		<file src="zSound9.mp3"/>
+		<file src="zSound10.mp3"/>
+	</sounds>
+	<skins>
+		<file src="pedSkins/82.txd"/>
+		<file src="pedSkins/192.txd"/>
+		<file src="pedSkins/192.dff"/>
+		<file src="pedSkins/82.dff"/>
+		
+		<file src="zombieSkins/9.txd"/>
+		<file src="zombieSkins/10.txd"/>
+		<file src="zombieSkins/13.txd"/>
+		<file src="zombieSkins/14.txd"/>
+		<file src="zombieSkins/16.txd"/>
+		<file src="zombieSkins/20.txd"/>
+		<file src="zombieSkins/195.txd"/>
+		<file src="zombieSkins/196.txd"/>
+		<file src="zombieSkins/197.txd"/>
+		<file src="zombieSkins/199.txd"/>
+		<file src="zombieSkins/200.txd"/>
+		<file src="zombieSkins/203.txd"/>
+		<file src="zombieSkins/204.txd"/>
+		<file src="zombieSkins/205.txd"/>
+		<file src="zombieSkins/234.txd"/>
+		<file src="zombieSkins/235.txd"/>
+		<file src="zombieSkins/236.txd"/>
+		<file src="zombieSkins/237.txd"/>
+		<file src="zombieSkins/238.txd"/>
+		<file src="zombieSkins/241.txd"/>
+		<file src="zombieSkins/242.txd"/>
+		<file src="zombieSkins/243.txd"/>
+		<file src="zombieSkins/244.txd"/>
+		<file src="zombieSkins/245.txd"/>
+		<file src="zombieSkins/264.txd"/>	
+		
+		<file src="zombieSkins/9.dff"/>
+		<file src="zombieSkins/10.dff"/>
+		<file src="zombieSkins/13.dff"/>
+		<file src="zombieSkins/14.dff"/>
+		<file src="zombieSkins/16.dff"/>
+		<file src="zombieSkins/20.dff"/>
+		<file src="zombieSkins/195.dff"/>
+		<file src="zombieSkins/196.dff"/>
+		<file src="zombieSkins/197.dff"/>
+		<file src="zombieSkins/199.dff"/>
+		<file src="zombieSkins/200.dff"/>
+		<file src="zombieSkins/203.dff"/>
+		<file src="zombieSkins/204.dff"/>
+		<file src="zombieSkins/205.dff"/>
+		<file src="zombieSkins/234.dff"/>
+		<file src="zombieSkins/235.dff"/>
+		<file src="zombieSkins/236.dff"/>
+		<file src="zombieSkins/237.dff"/>
+		<file src="zombieSkins/238.dff"/>
+		<file src="zombieSkins/241.dff"/>
+		<file src="zombieSkins/242.dff"/>
+		<file src="zombieSkins/243.dff"/>
+		<file src="zombieSkins/244.dff"/>
+		<file src="zombieSkins/245.dff"/>
+	</skins>
+	<mods>
+		<file src="mod1/14744.txd"/>
+		<file src="mod2/14743.txd"/>
+		<file src="mod3/14603.txd"/>		
+		<file src="mod4/14814.txd"/>		
+		<file src="mod5/16338.txd"/>
+		<file src="mod6/17925.txd"/>
+		<file src="mod7/1271.txd"/>
+		<file src="mod8/3927.txd"/>		
+		<file src="mod9/14801.txd"/>
+		<file src="mod10/14812.txd"/>
+		<file src="mod11/2624.txd"/>
+		<file src="mod12/3971.txd"/>
+		
+		<file src="mod1/14744.dff"/>
+		<file src="mod2/14743.dff"/>
+		<file src="mod3/14603.dff"/>
+		<file src="mod4/14814.dff"/>
+		<file src="mod5/16338.dff"/>
+		<file src="mod6/17925.dff"/>
+		<file src="mod9/14801.dff"/>
+		<file src="mod10/14812.dff"/>
+		<file src="mod11/2624.dff"/>
+		<file src="mod12/3971.dff"/>
+		
+		<file src="mod1/14744.col"/>
+		<file src="mod2/14743.col"/>
+		<file src="mod3/14603.col"/>
+		<file src="mod4/14814.col"/>
+		<file src="mod5/16338.col"/>
+		<file src="mod6/17925.col"/>
+		<file src="mod9/14801.col"/>
+		<file src="mod10/14812.col"/>
+		<file src="mod11/2624.col"/>
+		<file src="mod12/3971.col"/>
+	</mods>
+</files>

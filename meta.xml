@@ -1,0 +1,98 @@
+<meta>
+    <info author="PewX" name="iSurvival" version="0.3.1" type="gamemode" description="Zombie survival" edf:definition="edf/zombies.edf" />
+	
+	<!--shared-->
+	<script src="shared/sUtil.lua"	type = "server" />
+	<script src="shared/cUtil.lua"	type = "client" cache = "false" />	
+	<script src="shared/shared.lua"	type = "shared" cache = "false" />
+	<file 	src="shared/files.xml"	type = "shared" cache = "false" />
+	
+	<!--Main-->
+	<script src="main/sZombie.lua"		type = "server" />
+	<script src="main/sMainscript.lua"	type = "server" />
+	<script src="main/cZombie.lua"		type = "client" cache = "false" />
+	<script src="main/cMainscript.lua"	type = "client" cache = "false" />
+	
+	
+	<!--MySQL-->
+	<script src="mysql/sMysql.lua"		type = "server" />
+	<script src="mysql/sSettings.lua"	type = "server" />
+
+	<!--Systems-->
+		<!--downloader-->
+		<script src="systems/downloader/sDownloader.lua"			type = "server" />
+		<script src="systems/downloader/cDownloader.lua"			type = "client" cache = "false" />
+		<script src="systems/downloader/cDownloader_designer.lua"	type = "client" cache = "false" />
+		
+		<!--elementDatas-->
+		<script src="systems/elementDatas/sElementDatas.lua"	type = "server" />
+		<script src="systems/elementDatas/cElementDatas.lua"	type = "client" cache = "false" />
+		
+		<!--safetyZone-->
+		<script src="systems/safetyZone/sSafetyZones.lua"	type = "server" />
+		<script src="systems/safetyZone/cSafetyZones.lua"	type = "client" cache = "false" />
+				
+		<!--Login-->
+		<script src="systems/login/sLogin.lua"			type = "server" />
+		<script src="systems/login/cLogin.lua"			type = "client" cache = "false" />
+		<script src="systems/login/cLogin_designer.lua"	type = "client" cache = "false" />
+		
+		<!--environment-->
+		<script src="systems/environment/sRealtime.lua"		type = "server" />
+		<script src="systems/environment/sChatsystem.lua"	type = "server" />
+		<script src="systems/environment/sSpecialZones.lua"	type = "server" />
+		<script src="systems/environment/sSFZone.lua"		type = "server" />
+		<script src="systems/environment/cSFZone.lua"		type = "client" cache = "false" />
+		
+		<!--Messages-->
+		<script src="systems/messages/sMessages.lua"	type = "server" />
+		
+		<!--Vehicles-->
+		<script src="systems/vehicles/sVehicleSettings.lua"	type = "server" />
+		<script src="systems/vehicles/sVehicleFuel.lua"		type = "server" />
+		<script src="systems/vehicles/sVehicles.lua"		type = "server" />
+
+		<!--Gifts-->
+		<script src="systems/gifts/sGifts.lua"			type = "server" />
+		<script src="systems/gifts/cGifts.lua"			type = "client" cache = "false" />
+		<script src="systems/gifts/cGifts_designer.lua"	type = "client" cache = "false" />
+		
+		<!--Achievements-->
+		<script src="systems/achievements/sAchievements.lua"			type = "server" />
+		<script src="systems/achievements/cAchievements_designer.lua"	type = "client" cache = "false" />
+		
+		<!--Userpanel-->
+		<script src="systems/userpanel/sUP.lua"	type = "server" />
+		<script src="systems/userpanel/cUP.lua" type = "client" cache = "false" />
+		<script src="systems/userpanel/cUP_designer.lua" type = "client" cache = "false" />
+		
+		<!--Skills-->
+		<script src="systems/skills/sSkills.lua"			type = "server" />
+		<script src="systems/skills/cSkills.lua"			type = "client" cache = "false" />
+		<script src="systems/skills/cSkills_designer.lua"	type = "client" cache = "false" />
+		
+		<!--Peds-->
+		<script src="systems/peds/sPeds.lua"	type = "server" />
+		<script src="systems/peds/cPeds.lua"	type = "client" cache = "false" />
+		
+		<!--Marker-->
+		<script src="systems/marker/sMarkers.lua"	type = "server" />
+		
+		<!--Interfaces-->
+		<script src="systems/interfaces/cBI_designer.lua"	type = "client" cache = "false" />
+		<script src="systems/interfaces/cTI_designer.lua"	type = "client" cache = "false" />
+		<script src="systems/interfaces/cHUD_designer.lua"	type = "client" cache = "false" />
+		
+		
+		<!--Admin-->
+			<!--Safeguard-->
+			<script src="systems/admin/safeguard/sSafeguard.lua"	type = "server" />
+			<script src="systems/admin/safeguard/cSafeguard.lua"	type = "client" cache = "false" />
+			<!--Radar-->
+			<script src="systems/admin/radar/cRadar.lua"			type = "client" cache = "false" />
+	<!--//Systems-->
+	
+	<!--Files-->
+	<file src="files/fonts/calibrii.ttf" />
+	<file src="files/fonts/ocrastd.ttf" />
+</meta>

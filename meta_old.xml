@@ -1,0 +1,272 @@
+<meta>
+    <info author="HorrorClown" name="iSurvival" version="1.0.0" type="gamemode" description="Zombie survival" edf:definition="edf/zombies.edf" />
+    <!--<map src="maps/HorrorSurvivalMap.map" />
+	<script src="maps/mapEditorScriptingExtension_s.lua" type="server"></script>
+    <script src="maps/mapEditorScriptingExtension_c.lua" type="client" validate="false"></script>-->
+	
+	<!--Standart Zombie Script (editiert!)-->
+    <script src="zombie_server.lua" />
+    <script src="zombie_client.lua" type="client" />
+    
+    <!--Mainscript-->
+    <script src="shared.lua" type="shared" />
+    <script src="elementDatas/elementDatas_s.lua" />
+    <script src="elementDatas/elementDatas_c.lua" type="client" />
+    <script src="mainscript_server.lua" />
+    <script src="mainscript_client.lua" type="client" />
+    <script src="mysql/mysql_s.lua" />
+    <script src="mysql/settings_s.lua" />
+    <script src="markers/sMarkers.lua"/>
+    
+    <!--Login-->
+    <script src="login/logo.lua" type="client" />
+    <script src="login/camMove.lua" type="client" />
+    <script src="login/cLogin.lua" type="client" />
+    <script src="login/cLogin_designer.lua" type="client" />
+    <script src="login/sLogin.lua" />
+    <file src="images/login/button.png" />
+    <file src="images/login/loading.png" />
+    <file src="images/iSurvival.png" />
+    
+	<!--Systems-->
+	<!--Random Messages-->
+	<script src="systems/messages/sMessages.lua"/>
+	
+	<!--Ped Shop System-->
+	<script src="systems/peds/sPeds.lua"/>
+	<script src="systems/peds/cPeds.lua" type="client"/>
+	
+	<!--Level/Skill Shop System-->
+	<script src="systems/skills/sSkills.lua"/>
+	<script src="systems/skills/cSkills_designer.lua" type="client"/>
+	<script src="systems/skills/cSkills.lua" type="client"/>
+	<!--------/Systems\-------------->
+	
+	
+    <!--Specials-->
+    <script src="special/burnZones.lua" />
+    <script src="special/SFZone.lua" />
+    <script src="special/SFZone_c.lua" type="client" />
+    
+    <!--Diary-System-->
+    <script src="diarys/sDiarys.lua" />
+    <script src="diarys/cDiarys_functions.lua" type="client" />
+    
+    <!--Sounds-->
+    <script src="sounds/sounds_c.lua" type="client" />
+    <script src="sounds/cBackgroundmusic.lua" type="client" />
+    <script src="sounds/sBackgroundmusic.lua" />
+    
+    <!--SafetyZones-->
+    <script src="safetyZones/safetyZones_c.lua" type="client" />
+    <script src="safetyZones/safetyZones_s.lua" />
+    
+    <!--Security-->
+    <script src="security/server.lua" />
+    <script src="security/client.lua" type="client" />
+    
+    <!--VehicleSystem-->
+    <script src="vehicleSystem/sVehicleSettings.lua" />
+    <script src="vehicleSystem/sVehicleFuel.lua" />
+    <script src="vehicleSystem/sVehicles.lua" />
+	
+    <!--RadarSystem-->
+    <script src="radar/radar_s.lua" />
+    <script src="radar/radar_c.lua" type="client" />
+    
+	<!--giftSystem-->
+	<script src="giftSystem/sGifts.lua"/>
+	<script src="giftSystem/cGifts.lua" type="client"/>
+	<script src="giftSystem/cGifts_designer.lua" type="client"/>
+	<file src="images/gifts/image.png"/>
+	<file src="images/gifts/wd.png"/>
+	<file src="images/gifts/pi.png"/>
+	<file src="images/gifts/csgo.png"/>
+	<file src="images/gifts/rust.png"/>
+	<file src="images/gifts/gs.png"/>
+	<file src="images/gifts/sb.png"/>
+	<file src="images/gifts/smb.png"/>
+	<file src="images/gifts/pd2.png"/>
+	<file src="images/gifts/dayz.png"/>
+	<file src="images/gifts/ac.png"/>
+	
+    <!--Userpanel-->
+    <script src="userpanel/cUP_functions.lua" type="client" />
+    <script src="userpanel/cUP_designer.lua" type="client" />
+    <script src="userpanel/sUP.lua" />
+	<file src="sounds/hover.mp3"/>
+    
+    <!--Interfaces-->
+	<script src="interfaces/cBI_designer.lua" type="client"/>
+    <!--<script src="interfaces/BottomInterface.lua" type="client" />-->
+    <script src="interfaces/TopInterface.lua" type="client" />
+    
+	<!--Achievements-->
+	<script src="achievements/sAchievements.lua"/>
+	<script src="achievements/cAchievements.lua" type="client"/>
+	<file src="images/achievements/zombie.png"/>
+	<file src="images/achievements/death.png"/>
+	<file src="images/achievements/pickup.png"/>
+	<file src="images/achievements/main.png"/>
+	<file src="images/achievements/killStreak.png"/>
+	<file src="sounds/achievement.mp3"/>
+	
+	<!--Shader-->
+	<script src="shader/cShader_oldFilm.lua" type="client"/>
+	<script src="shader/cShader_blur.lua" type="client"/>
+	<file src="shader/shaderFiles/BlurShader.fx"/>
+	<file src="shader/shaderFiles/old_film.fx"/>
+
+    <!--Shops-->
+    <script src="shop/main_s.lua" />
+    <script src="shop/main_c.lua" type="client" />
+    <script src="shop/cFuelshop.lua" type="client" />
+    <script src="shop/weaponshop_1.lua" type="client" />
+    <script src="shop/weaponshop_2.lua" type="client" />
+    <script src="shop/weaponshop_3.lua" type="client" />
+    <script src="shop/weaponshop_4.lua" type="client" />
+    <script src="shop/weaponshop_5.lua" type="client" />
+    <script src="shop/weaponshop_6.lua" type="client" />
+    
+	<!--<script src="shop/cLevelshop.lua" type="client"/>
+	<script src="shop/sLevelshop.lua" />-->
+	
+    <!--Other scripts-->
+    <script src="realtime.lua" />
+    <script src="chatsystem_s.lua" />
+   <!-- <script src="notifications/notifications_c.lua" type="client" />-->
+    
+    <!--Files-->
+    <file src="images/TopInterface.png" />
+    <file src="images/safetyzone.png" />
+    <file src="images/BottomInterface.png" />
+    <file src="images/userpanel_tab.png" />
+    <file src="images/item.png" />
+    <file src="images/nuclear.png" />
+    
+	<!--Items-->
+	<file src="images/items/C4.png"/>
+	<file src="images/items/fuel_f.png"/>
+	<file src="images/items/fuel_e.png"/>
+	<file src="images/items/fireworks.png"/>
+	<file src="images/items/medikit.png"/>
+	<file src="images/items/food.png"/>
+	<file src="images/items/gifts.png"/>
+	<file src="images/items/nopic.png"/>
+	
+	<file src="images/switch_on.png"/>
+	<file src="images/switch_off.png"/>
+	
+    <file src="fonts/calibrii.ttf" />
+    <file src="fonts/ocrastd.ttf" />
+    <file src="fonts/segoeuii.ttf" />
+    <file src="fonts/segoeuiz.ttf" />
+    <file src="sounds/ding.mp3" />
+    <file src="sounds/geiger_01.mp3" />
+	
+    <!--dxGui Files-->
+    <file src="images/close.png" />
+    <file src="images/button.png" />
+    
+    <!--Skin Files-->
+	
+	<!--Special-->
+	<file src="skins/specialSkins/192.txd" />
+	<file src="skins/specialSkins/192.dff" />
+	<file src="skins/specialSkins/82.txd" />
+	<file src="skins/specialSkins/82.dff" />
+	
+	<!--Zombies-->
+    <file src="skins/9.txd" />
+    <file src="skins/10.txd" />
+    <file src="skins/13.txd" />
+    <file src="skins/14.txd" />
+    <file src="skins/16.txd" />
+    <file src="skins/20.txd" />
+    <file src="skins/195.txd" />
+    <file src="skins/196.txd" />
+    <file src="skins/197.txd" />
+    <file src="skins/199.txd" />
+    <file src="skins/200.txd" />
+    <file src="skins/203.txd" />
+    <file src="skins/204.txd" />
+    <file src="skins/205.txd" />
+    <file src="skins/234.txd" />
+    <file src="skins/235.txd" />
+    <file src="skins/236.txd" />
+    <file src="skins/237.txd" />
+    <file src="skins/238.txd" />
+    <file src="skins/241.txd" />
+    <file src="skins/242.txd" />
+    <file src="skins/243.txd" />
+    <file src="skins/244.txd" />
+    <file src="skins/245.txd" />
+    <file src="skins/264.txd" />
+    
+    <file src="skins/9.dff" />
+    <file src="skins/10.dff" />
+    <file src="skins/13.dff" />
+    <file src="skins/14.dff" />
+    <file src="skins/16.dff" />
+    <file src="skins/20.dff" />
+    <file src="skins/195.dff" />
+    <file src="skins/196.dff" />
+    <file src="skins/197.dff" />
+    <file src="skins/199.dff" />
+    <file src="skins/200.dff" />
+    <file src="skins/203.dff" />
+    <file src="skins/204.dff" />
+    <file src="skins/205.dff" />
+    <file src="skins/234.dff" />
+    <file src="skins/235.dff" />
+    <file src="skins/236.dff" />
+    <file src="skins/237.dff" />
+    <file src="skins/238.dff" />
+    <file src="skins/241.dff" />
+    <file src="skins/242.dff" />
+    <file src="skins/243.dff" />
+    <file src="skins/244.dff" />
+    <file src="skins/245.dff" />
+    
+    <!--Weapon Icon Files-->
+    <file src="images/silencedPistol.png" />
+    <file src="images/knife.png" />
+    <file src="images/katana.png" />
+    <file src="images/sawnoff.png" />
+    <file src="images/countrySniper.png" />
+    <file src="images/ak47.png" />
+    <file src="images/spaz12.png" />
+    <file src="images/m4.png" />
+    <file src="images/mp5.png" />
+    <file src="images/bombs.png" />
+    <file src="images/rocketlauncher.png" />
+    <file src="images/minigun.png" />
+    <file src="images/deagle.png" />
+    <file src="images/tec9.png" />
+    <file src="images/uzi.png" />
+    <file src="images/teargas.png" />
+    <file src="images/granade.png" />
+    <file src="images/molotov.png" />
+    
+    <!--Zombie Sound Files-->
+    <file src="sounds/zSound1.mp3" />
+    <file src="sounds/zSound2.mp3" />
+    <file src="sounds/zSound3.mp3" />
+    <file src="sounds/zSound4.mp3" />
+    <file src="sounds/zSound5.mp3" />
+    <file src="sounds/zSound6.mp3" />
+    <file src="sounds/zSound7.mp3" />
+    <file src="sounds/zSound8.mp3" />
+    <file src="sounds/zSound9.mp3" />
+    <file src="sounds/zSound10.mp3" />
+
+    
+    <!--Other files-->
+    <file src="edf/zombiespawn.png" />
+    <file src="images/zombiewood.png" />
+    
+    <!--Exports-->
+    <export function="createZombie" type="server" />
+    <export function="isPedZombie" type="server" />
+    <min_mta_version server="1.3.4" client="1.3.4"></min_mta_version>
+</meta>

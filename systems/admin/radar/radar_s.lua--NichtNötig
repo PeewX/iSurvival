@@ -1,0 +1,6 @@
+function destroyMarkers()
+	for i, player in ipairs(getElementsByType("player")) do
+		triggerClientEvent("destroyBlip", player, source)
+	end	
+end
+addEventHandler("onPlayerQuit", root, destroyMarkers)
